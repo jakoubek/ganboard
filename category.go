@@ -77,9 +77,9 @@ func (c *Client) RemoveCategory(categoryID int) (bool, error) {
 
 // Category type
 type Category struct {
-	ID        int    `json:"id"`
+	ID        int    `json:"id,string"`
 	Name      string `json:"name"`
-	ProjectID int    `json:"project_id"`
+	ProjectID int    `json:"project_id,string"`
 }
 
 func (r *request) decodeCategory() (Category, error) {
