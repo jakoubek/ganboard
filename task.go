@@ -246,7 +246,7 @@ type Task struct {
 	Score               int    `json:"score,string"`
 	CategoryID          int    `json:"category_id,string"`
 	SwimlaneID          int    `json:"swimlane_id,string,omitempty"`
-	DateMoved           int    `json:"date_moved"`
+	DateMoved           int    `json:"date_moved,string"`
 	RecurrenceStatus    int    `json:"recurrence_status,string"`
 	RecurrenceTrigger   int    `json:"recurrence_trigger,string"`
 	RecurrenceFactor    int    `json:"recurrence_factor,string"`
