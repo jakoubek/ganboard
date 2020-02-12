@@ -230,7 +230,7 @@ type Task struct {
 	ColorID             string `json:"color_id,omitempty"`
 	ColumnID            int    `json:"column_id,string,omitempty"`
 	OwnerID             int    `json:"owner_id,string,omitempty"`
-	CreatorID           int    `json:"creator_id,omitempty"`
+	CreatorID           int    `json:"creator_id,string,omitempty"`
 	DateDue             int    `json:"date_due,string,omitempty"`
 	Reference           string `json:"reference"`
 	Title               string `json:"title"`
